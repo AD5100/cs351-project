@@ -1,0 +1,17 @@
+ .order-card
+ {
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.order-card:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+.order-id
+{
+    font-size: 0.9rem;
+    color: #6b7280;
+}
